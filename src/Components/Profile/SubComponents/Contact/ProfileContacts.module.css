@@ -1,0 +1,23 @@
+.profileContactsItem:not(:nth-child(4)) {
+  margin-right: 15px;
+}
+
+.profileContactsLink {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.profileContactsLink:hover {
+  color: #f00;
+}
+
+.profileContactsTitle {
+  margin-bottom: 5px;
+}
+
+.profileContactsList {
+  display: flex;
+  list-style: none;
+  max-width: 290px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,50 @@
+.profileImgMainWrap {
+  background: url('./../../assets/Images/profileBg.jpg') no-repeat center ;
+  background-size: cover;
+  height: 150px;
+  position: relative;
+  border-radius: 5px;
+}
+.profileImgWrap {
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #000;
+  transform: translateX(-50%);
+}
+
+.profileInfoWrap {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileName {
+  font-size: 1.5rem;
+}
+
+.profileStatus {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+.profileJob {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.profileJobStatusTitle {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.profileJobStatus,
+.profileJobCateg {
+  display: flex;
+  font-size: 0.9rem;
+}
+

@@ -1,0 +1,16 @@
+.profileJob {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.profileJobStatusTitle {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.profileJobStatus,
+.profileJobCateg {
+  display: flex;
+  font-size: 0.9rem;
+}

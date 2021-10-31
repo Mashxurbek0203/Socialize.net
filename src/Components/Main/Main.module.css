@@ -1,0 +1,22 @@
+.siteMainWrap {
+  display: grid;
+  max-width: 960px;
+  margin: 0 auto;
+  grid-template-areas: 
+  "site-nav site-content site-sidebar";
+  grid-template-columns: 1.91fr 6.9fr 2.9fr;
+  grid-column-gap: 15px;
+  align-items: start;
+}
+
+
+.siteNav {
+  grid-area: site-nav;
+}
+.siteContent{
+  grid-area: site-content;
+}
+
+.siteSidebar{
+  grid-area: site-sidebar;
+}

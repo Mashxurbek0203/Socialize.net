@@ -1,0 +1,16 @@
+.profileImgMainWrap {
+  background: url('./../../../../assets/Images/profileBg.jpg') no-repeat center ;
+  background-size: cover;
+  height: 150px;
+  position: relative;
+  border-radius: 5px;
+}
+.profileImgWrap {
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #000;
+  transform: translateX(-50%);
+}
